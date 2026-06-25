@@ -13,7 +13,7 @@
     <groupId>nit</groupId>
     <artifactId>SBMSDay56_1EurekaServerQZApp-1</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>war</packaging>
+   <packaging>jar</packaging>
     <name>SBMSDay56_1EurekaServerQZApp-1</name>
     <description>Mentor Service</description>
 
@@ -60,10 +60,9 @@
 
         <!-- Provided (for WAR deployment) -->
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-tomcat</artifactId>
-            <scope>provided</scope>
-        </dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-tomcat</artifactId>
+</dependency>
 
         <!-- Swagger / OpenAPI (Springdoc) -->
         <dependency>
