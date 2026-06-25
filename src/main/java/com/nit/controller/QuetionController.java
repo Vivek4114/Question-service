@@ -24,7 +24,7 @@ import com.nit.service.QuetionService;
 
 @RestController
 @RequestMapping("/quetions")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://quiz-frontend-coral.vercel.app/")
 public class QuetionController {
 	
 	@Autowired
